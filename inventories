@@ -1,0 +1,13 @@
+[master]
+katarina-master 
+
+[workers]
+katarina-node1
+katarina-node2
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_ssh_extra_args='-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
+ansible_ssh_private_key_file=~/.ssh/id_rsa
+ansible_user=<your_vm_user>
+ansible_sudo_pass=<your_vm_password>
