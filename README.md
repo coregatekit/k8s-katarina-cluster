@@ -1,1 +1,3 @@
-# k8s-katarina-cluster
+# Kubernetes Katarina
+
+An ansible script for create a kubernetes cluster.
